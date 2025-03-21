@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Image Alignment: Center-Left */
+.image-container {
+    display: flex;
+    align-items: center; /* Aligns the image vertically to the middle */
+    gap: 20px;
+}
+
+.image-container img {
+    width: 40%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    align-self: center; /* Ensures the image stays in the middle */
+}
